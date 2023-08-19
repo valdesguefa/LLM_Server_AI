@@ -1,0 +1,110 @@
+2023-08-16 10:00:34 | INFO | controller | args: Namespace(host='172.27.118.4', port=21001, dispatch_method='shortest_queue')
+2023-08-16 10:00:34 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m128[0m]
+2023-08-16 10:00:34 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-08-16 10:00:34 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-08-16 10:00:34 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://172.27.118.4:21001[0m (Press CTRL+C to quit)
+2023-08-16 10:16:31 | INFO | controller | Register a new worker: http://localhost:21002
+2023-08-16 10:16:31 | INFO | controller | Register done: http://localhost:21002, {'model_names': ['vicuna-13b'], 'speed': 1, 'queue_length': 0}
+2023-08-16 10:16:31 | INFO | stdout | [32mINFO[0m:     172.27.118.4:36156 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:17:16 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:17:16 | INFO | stdout | [32mINFO[0m:     172.27.118.4:57074 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:18:01 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:18:01 | INFO | stdout | [32mINFO[0m:     172.27.118.4:45726 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:18:46 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:18:46 | INFO | stdout | [32mINFO[0m:     172.27.118.4:52648 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:19:31 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:19:31 | INFO | stdout | [32mINFO[0m:     172.27.118.4:43952 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:20:16 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:20:16 | INFO | stdout | [32mINFO[0m:     172.27.118.4:58752 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:21:01 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:21:01 | INFO | stdout | [32mINFO[0m:     172.27.118.4:55796 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:21:46 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:21:46 | INFO | stdout | [32mINFO[0m:     172.27.118.4:54326 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:22:31 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:22:31 | INFO | stdout | [32mINFO[0m:     172.27.118.4:33548 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:23:16 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:23:16 | INFO | stdout | [32mINFO[0m:     172.27.118.4:41614 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:24:02 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:24:02 | INFO | stdout | [32mINFO[0m:     172.27.118.4:56276 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:24:47 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:24:47 | INFO | stdout | [32mINFO[0m:     172.27.118.4:45138 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:25:32 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:25:32 | INFO | stdout | [32mINFO[0m:     172.27.118.4:51274 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:26:17 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:26:17 | INFO | stdout | [32mINFO[0m:     172.27.118.4:44544 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:27:02 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:27:02 | INFO | stdout | [32mINFO[0m:     172.27.118.4:53582 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:27:47 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:27:47 | INFO | stdout | [32mINFO[0m:     172.27.118.4:38012 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:28:32 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:28:32 | INFO | stdout | [32mINFO[0m:     172.27.118.4:37224 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:29:17 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:29:17 | INFO | stdout | [32mINFO[0m:     172.27.118.4:56792 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:30:02 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:30:02 | INFO | stdout | [32mINFO[0m:     172.27.118.4:36720 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:30:47 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:30:47 | INFO | stdout | [32mINFO[0m:     172.27.118.4:35176 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:31:32 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:31:32 | INFO | stdout | [32mINFO[0m:     172.27.118.4:54756 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:32:17 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:32:17 | INFO | stdout | [32mINFO[0m:     172.27.118.4:32790 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:33:02 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:33:02 | INFO | stdout | [32mINFO[0m:     172.27.118.4:46622 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:33:47 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:33:47 | INFO | stdout | [32mINFO[0m:     172.27.118.4:40194 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:34:32 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:34:32 | INFO | stdout | [32mINFO[0m:     172.27.118.4:47970 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:35:17 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:35:17 | INFO | stdout | [32mINFO[0m:     172.27.118.4:33864 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:36:02 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:36:02 | INFO | stdout | [32mINFO[0m:     172.27.118.4:53674 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:36:47 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:36:47 | INFO | stdout | [32mINFO[0m:     172.27.118.4:43376 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:37:32 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:37:32 | INFO | stdout | [32mINFO[0m:     172.27.118.4:57706 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:38:17 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:38:17 | INFO | stdout | [32mINFO[0m:     172.27.118.4:37072 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:39:02 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:39:02 | INFO | stdout | [32mINFO[0m:     172.27.118.4:36794 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:39:48 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:39:48 | INFO | stdout | [32mINFO[0m:     172.27.118.4:50224 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:40:33 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:40:33 | INFO | stdout | [32mINFO[0m:     172.27.118.4:41542 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:41:18 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:41:18 | INFO | stdout | [32mINFO[0m:     172.27.118.4:60214 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:42:03 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:42:03 | INFO | stdout | [32mINFO[0m:     172.27.118.4:55460 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:42:48 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:42:48 | INFO | stdout | [32mINFO[0m:     172.27.118.4:59828 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:43:33 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:43:33 | INFO | stdout | [32mINFO[0m:     172.27.118.4:34672 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:44:18 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:44:18 | INFO | stdout | [32mINFO[0m:     172.27.118.4:35480 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:45:03 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:45:03 | INFO | stdout | [32mINFO[0m:     172.27.118.4:36940 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:45:48 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:45:48 | INFO | stdout | [32mINFO[0m:     172.27.118.4:41072 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:46:33 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:46:33 | INFO | stdout | [32mINFO[0m:     172.27.118.4:59144 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:47:18 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:47:18 | INFO | stdout | [32mINFO[0m:     172.27.118.4:44176 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:48:03 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:48:03 | INFO | stdout | [32mINFO[0m:     172.27.118.4:48396 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:48:48 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:48:48 | INFO | stdout | [32mINFO[0m:     172.27.118.4:58246 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:49:33 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:49:33 | INFO | stdout | [32mINFO[0m:     172.27.118.4:38550 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:50:18 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:50:18 | INFO | stdout | [32mINFO[0m:     172.27.118.4:48122 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:51:03 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:51:03 | INFO | stdout | [32mINFO[0m:     172.27.118.4:47810 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:51:48 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:51:48 | INFO | stdout | [32mINFO[0m:     172.27.118.4:37466 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:52:33 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:52:33 | INFO | stdout | [32mINFO[0m:     172.27.118.4:38426 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:53:18 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:53:18 | INFO | stdout | [32mINFO[0m:     172.27.118.4:57132 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:54:03 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:54:03 | INFO | stdout | [32mINFO[0m:     172.27.118.4:59834 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:54:49 | INFO | controller | Receive heart beat. http://localhost:21002
+2023-08-16 10:54:49 | INFO | stdout | [32mINFO[0m:     172.27.118.4:52488 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m

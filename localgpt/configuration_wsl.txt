@@ -1,0 +1,7 @@
+ip addr
+ip addr | grep eth0
+netsh interface portproxy add v4tov4 listenport=3000 listenaddress=0.0.0.0 connectport=3000 connectaddress=172.27.118.4
+
+netsh interface portproxy add v4tov4 listenport=5110 listenaddress=0.0.0.0 connectport=5110 connectaddress=172.27.118.4
+
+https://stackoverflow.com/questions/57633406/unable-to-access-network-from-wsl2

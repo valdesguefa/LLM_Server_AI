@@ -1,0 +1,78 @@
+2023-08-16 10:01:28 | INFO | model_worker | args: Namespace(host='172.27.118.4', port=21002, worker_address='http://localhost:21002', controller_address='http://172.27.118.4:21001', model_path='./models/lmsysvicuna_13b_v1.5', device='cuda', gpus=None, num_gpus=1, max_gpu_memory=None, load_8bit=True, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, model_names=['vicuna-13b'], limit_model_concurrency=5, stream_interval=2, no_register=False)
+2023-08-16 10:01:28 | INFO | model_worker | Loading the model ['vicuna-13b'] on worker 7c3a29 ...
+2023-08-16 10:01:32 | ERROR | stderr |   0%|                                                                                             | 0/3 [00:00<?, ?it/s]
+2023-08-16 10:08:25 | ERROR | stderr |  33%|████████████████████████████                                                        | 1/3 [06:53<13:47, 413.68s/it]
+2023-08-16 10:11:38 | ERROR | stderr |  67%|████████████████████████████████████████████████████████                            | 2/3 [10:06<04:43, 283.96s/it]
+2023-08-16 10:16:30 | ERROR | stderr | 100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [14:57<00:00, 287.20s/it]
+2023-08-16 10:16:30 | ERROR | stderr | 100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [14:58<00:00, 299.33s/it]
+2023-08-16 10:16:30 | ERROR | stderr | 
+2023-08-16 10:16:30 | INFO | model_worker | Register to controller
+2023-08-16 10:16:32 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m144[0m]
+2023-08-16 10:16:32 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-08-16 10:16:32 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-08-16 10:16:32 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://172.27.118.4:21002[0m (Press CTRL+C to quit)
+2023-08-16 10:17:16 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:18:01 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:18:46 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:19:31 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:20:16 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:21:01 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:21:46 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:22:31 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:23:16 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:24:02 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:24:47 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:25:32 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:26:17 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:27:02 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:27:47 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:28:32 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:29:17 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:30:02 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:30:47 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:31:32 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:32:17 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:33:02 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:33:47 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:34:32 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:34:44 | INFO | stdout | [32mINFO[0m:     172.27.112.1:61760 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:35:17 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:36:02 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:36:06 | INFO | stdout | [32mINFO[0m:     172.27.112.1:61925 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:36:47 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. global_counter: 0. worker_id: 7c3a29. 
+2023-08-16 10:36:50 | INFO | stdout | [32mINFO[0m:     172.27.112.1:61966 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:37:24 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62049 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-16 10:37:32 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=3, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:38:17 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=3, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:38:51 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62191 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:39:02 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:39:47 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:40:33 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:41:18 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:41:54 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62402 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:42:03 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:42:48 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:43:33 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:44:18 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:44:25 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62496 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:44:33 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62497 - "[1mGET /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:44:35 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62497 - "[1mGET /favicon.ico HTTP/1.1[0m" [31m404 Not Found[0m
+2023-08-16 10:45:03 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:45:48 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:46:33 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:47:18 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:47:29 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62575 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:48:03 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:48:48 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:49:12 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62627 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:49:33 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:50:18 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:51:03 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:51:48 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:52:32 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62754 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:52:33 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:53:18 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:54:03 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 
+2023-08-16 10:54:14 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62833 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:54:18 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62839 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+2023-08-16 10:54:49 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2. worker_id: 7c3a29. 

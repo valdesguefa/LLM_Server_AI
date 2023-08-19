@@ -1,0 +1,240 @@
+2023-08-19 15:19:25 | INFO | model_worker | args: Namespace(host='172.27.118.4', port=21002, worker_address='http://localhost:21002', controller_address='http://172.27.118.4:21001', model_path='./models/lmsysvicuna_13b_v1.5', revision='main', device='cuda', gpus=None, num_gpus=1, max_gpu_memory=None, load_8bit=True, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, model_names=['vicuna-13b'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-08-19 15:19:25 | INFO | model_worker | Loading the model ['vicuna-13b'] on worker c0675d27 ...
+2023-08-19 15:19:26 | ERROR | stderr |   0%|                                                                                             | 0/3 [00:00<?, ?it/s]
+2023-08-19 15:20:58 | ERROR | stderr |  33%|████████████████████████████▎                                                        | 1/3 [01:31<03:03, 91.74s/it]
+2023-08-19 15:22:31 | ERROR | stderr |  67%|████████████████████████████████████████████████████████▋                            | 2/3 [03:05<01:32, 92.66s/it]
+2023-08-19 15:23:33 | ERROR | stderr | 100%|█████████████████████████████████████████████████████████████████████████████████████| 3/3 [04:07<00:00, 78.69s/it]
+2023-08-19 15:23:33 | ERROR | stderr | 100%|█████████████████████████████████████████████████████████████████████████████████████| 3/3 [04:07<00:00, 82.37s/it]
+2023-08-19 15:23:33 | ERROR | stderr | 
+2023-08-19 15:23:34 | INFO | model_worker | Register to controller
+2023-08-19 15:23:34 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m225[0m]
+2023-08-19 15:23:34 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-08-19 15:23:34 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-08-19 15:23:34 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://172.27.118.4:21002[0m (Press CTRL+C to quit)
+2023-08-19 15:24:19 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: None. call_ct: 0. worker_id: c0675d27. 
+2023-08-19 15:24:28 | INFO | stdout | [32mINFO[0m:     172.27.112.1:55192 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 15:24:28 | INFO | stdout | [32mINFO[0m:     172.27.112.1:55192 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 15:25:04 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 1. worker_id: c0675d27. 
+2023-08-19 15:25:49 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 1. worker_id: c0675d27. 
+2023-08-19 15:26:34 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 1. worker_id: c0675d27. 
+2023-08-19 15:27:19 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: c0675d27. 
+2023-08-19 15:28:04 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: c0675d27. 
+2023-08-19 15:28:49 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: c0675d27. 
+2023-08-19 15:29:34 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: c0675d27. 
+2023-08-19 15:30:19 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: c0675d27. 
+2023-08-19 15:31:04 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: c0675d27. 
+2023-08-19 15:31:27 | INFO | stdout | [32mINFO[0m:     172.27.112.1:57274 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 15:31:49 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:32:34 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:33:19 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:34:04 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:34:49 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:35:34 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:36:20 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:37:05 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:37:50 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:38:35 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:39:20 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:40:05 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:40:50 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:41:35 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:42:20 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:43:05 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:43:50 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:44:35 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:45:20 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:46:05 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:46:50 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:47:35 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:48:20 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:49:05 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:49:51 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:50:36 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:51:21 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:52:06 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:52:51 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:53:36 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:54:21 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:55:06 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:55:51 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:56:36 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:57:21 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:58:06 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:58:51 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 15:59:36 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:00:21 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:01:06 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:01:51 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:02:36 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:03:21 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:04:06 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:04:52 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:05:37 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:06:22 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:07:07 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:07:52 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:08:37 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:09:22 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:10:07 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:10:52 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:11:37 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:12:22 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:13:07 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:13:52 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:14:37 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: c0675d27. 
+2023-08-19 16:15:07 | INFO | stdout | [32mINFO[0m:     172.27.112.1:59766 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:15:07 | INFO | stdout | [32mINFO[0m:     172.27.112.1:59766 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:15:22 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:16:07 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:16:52 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:17:37 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:18:22 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:19:07 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:19:52 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:20:37 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:21:22 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:22:07 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:22:52 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:23:37 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:24:22 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:25:08 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: c0675d27. 
+2023-08-19 16:25:17 | INFO | stdout | [32mINFO[0m:     172.27.112.1:60327 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:25:18 | INFO | stdout | [32mINFO[0m:     172.27.112.1:60327 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:25:53 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 4. worker_id: c0675d27. 
+2023-08-19 16:26:38 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 4. worker_id: c0675d27. 
+2023-08-19 16:27:23 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 4. worker_id: c0675d27. 
+2023-08-19 16:28:06 | INFO | stdout | [32mINFO[0m:     172.27.112.1:60461 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:28:08 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 5. worker_id: c0675d27. 
+2023-08-19 16:28:53 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 5. worker_id: c0675d27. 
+2023-08-19 16:29:38 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 5. worker_id: c0675d27. 
+2023-08-19 16:30:23 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 5. worker_id: c0675d27. 
+2023-08-19 16:31:08 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 5. worker_id: c0675d27. 
+2023-08-19 16:31:32 | INFO | stdout | [32mINFO[0m:     172.27.112.1:60625 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:31:53 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=3, locked=False). call_ct: 6. worker_id: c0675d27. 
+2023-08-19 16:32:11 | INFO | stdout | [32mINFO[0m:     172.27.112.1:60649 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:32:38 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=2, locked=False). call_ct: 7. worker_id: c0675d27. 
+2023-08-19 16:33:23 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=3, locked=False). call_ct: 7. worker_id: c0675d27. 
+2023-08-19 16:34:08 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: c0675d27. 
+2023-08-19 16:34:17 | INFO | stdout | [32mINFO[0m:     172.27.112.1:60883 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:34:53 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 8. worker_id: c0675d27. 
+2023-08-19 16:35:38 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 8. worker_id: c0675d27. 
+2023-08-19 16:36:23 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 8. worker_id: c0675d27. 
+2023-08-19 16:37:08 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: c0675d27. 
+2023-08-19 16:37:40 | INFO | stdout | [32mINFO[0m:     172.27.112.1:61074 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:37:40 | INFO | stdout | [32mINFO[0m:     172.27.112.1:61074 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:37:53 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 9. worker_id: c0675d27. 
+2023-08-19 16:38:38 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 9. worker_id: c0675d27. 
+2023-08-19 16:39:23 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 9. worker_id: c0675d27. 
+2023-08-19 16:40:08 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 9. worker_id: c0675d27. 
+2023-08-19 16:40:53 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 9. worker_id: c0675d27. 
+2023-08-19 16:41:38 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 9. worker_id: c0675d27. 
+2023-08-19 16:42:23 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 9. worker_id: c0675d27. 
+2023-08-19 16:42:43 | INFO | stdout | [32mINFO[0m:     172.27.112.1:61368 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:43:08 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 10. worker_id: c0675d27. 
+2023-08-19 16:43:53 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: c0675d27. 
+2023-08-19 16:44:38 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: c0675d27. 
+2023-08-19 16:45:23 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: c0675d27. 
+2023-08-19 16:46:08 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: c0675d27. 
+2023-08-19 16:46:40 | INFO | stdout | [32mINFO[0m:     172.27.112.1:61596 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 16:46:53 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:47:38 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:48:23 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:49:08 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:49:54 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:50:39 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:51:24 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:52:09 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:52:54 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:53:39 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:54:24 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:55:09 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:55:54 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:56:39 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:57:24 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:58:09 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:58:54 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 16:59:39 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 17:00:24 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 17:01:09 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 17:01:54 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 17:02:39 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 17:03:24 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: c0675d27. 
+2023-08-19 17:03:38 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62440 - "[1mOPTIONS /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 17:03:38 | INFO | stdout | [32mINFO[0m:     172.27.112.1:62440 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-08-19 17:04:09 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:04:54 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:05:39 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:06:25 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:07:10 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:07:55 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:08:40 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:09:25 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:10:10 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:10:55 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:11:40 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:12:25 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:13:10 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:13:55 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:14:40 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:15:25 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:16:10 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:16:55 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:17:40 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:18:25 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:19:10 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:19:55 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:20:40 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:21:25 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:22:10 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:22:55 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:23:40 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:24:26 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:25:11 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:25:56 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:26:41 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:27:26 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:28:11 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:28:56 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:29:41 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:30:26 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:31:11 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:31:56 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:32:41 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:33:26 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:34:11 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:34:56 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:35:41 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:36:26 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:37:11 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:37:56 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:38:41 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:39:26 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:40:11 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:40:57 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:41:42 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:42:27 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:43:12 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:43:57 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:44:42 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:45:27 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:46:12 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:46:57 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:47:42 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:48:27 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:49:12 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:49:57 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:50:42 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:51:27 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:52:12 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:52:57 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:53:42 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:54:27 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:55:12 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:55:57 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:56:42 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:57:27 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:58:13 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:58:58 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 17:59:43 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 18:00:28 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 
+2023-08-19 18:01:13 | INFO | model_worker | Send heart beat. Models: ['vicuna-13b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: c0675d27. 

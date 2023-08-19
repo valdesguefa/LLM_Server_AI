@@ -1,0 +1,128 @@
+lymsys == TheBloke
+
+question : Comment developper une strategie de business case ?
+0  1
+question : fais moi un resume de ce document
+1  0
+
+question : quels sont les criteres d'evaluation des benefices selon le document ?
+0  1
+
+question : quels sont les types de risques selon le document ?
+2  0
+
+question : de quoi s'agit il dans ce document ?
+
+lymsys
+Ce document est un modèle détaillé pour la création d'un cas d'affaires spécifique. 
+Il contient des sections clés telles que l'introduction, les résultats, la portée et 
+une analyse détaillée des options. Le but principal du document est de fournir une preuve solide
+ en faveur de la viabilité financière et technique d'une initiative ou projet particulier.
+
+TheBloke
+Ce document est un modèle de cas d'affaires détaillé pour les projets gouvernementaux en 
+Australie-Méridionale. Il contient des sections détaillées sur l'analyse des besoins et des 
+objectifs, la définition du projet, la gestion des ressources, la planification et la gestion 
+du budget, ainsi que la surveillance et l'évaluation du projet. Le but principal du cas d'affaires 
+détaillé est de fournir une description complète et détaillée du projet, y compris ses objectifs, 
+son impact économique potentiel, sa date butoir, sa structure organisationnelle, sa planification 
+et sa gestion budgétaires, ainsi que tous les autres aspects pertinents liés au projet.
+
+
+prompt generic
+<<questions>> selon le document et réponds en utilisant la langue avec la laquelle je t'ecris.
+<<questions>> selon les documents qui te sont fournis, réfléchi profondément et donne moi des résultats.
+<<question>> answer according to your knowledge base.
+
+qui sont ceux qui font dans le domaine de l'informatique ?
+lym: Les employés qui travaillent dans les départements de l'Informatique sont : James Hall (IT015), Michael Thompson (IT007) et Liam Harris (IT019).
+bloke: Les employés ayant des numéros de carte nationale d'identification (CNIs) dans le domaine de l'informatique sont : James Hall, Michael Thompson, Samantha Thomas, Robert Williams et Liam Harris.
+
+qui est alexander wright?
+lym: Alexander Wright est un employé de chez ABC Company avec une CNI de 789012345. Il est né le 18 mars 1987, vit à 567 Pine Road, peut être contacté au numéro de téléphone 555-8901 et se fait appeler Alexandre Wright. Il travaille dans le département des Ventes avec le code VNT017 et occupe le poste de Représentant commercial.
+bloke: Alexander Wright is the employee with the CNI 789012345 who was born on March 18th, 1987 and works in the Sales department (VNT017).
+
+parle moi de emily
+lym: Emily Anderson est une employée de chez ABC Company. Sa CNI est 890 Willow Avenue, sa date de naissance est le 2 septembre 1991, son numéro de téléphone est 555-7890 et son adresse e-mail est [emilyanderson@example.com](mailto:emilyanderson@example.com). Elle travaille dans le département des Ressources humaines avec le code RH006. Si on a besoin d'elle en urgence, on doit contacter Oliver Wilson au numéro 555-5678.
+bloke: Emily Anderson est une employée de votre entreprise qui a été identifiée comme ayant la CNI 345678901. Elle est née le 2 septembre 1991 et habite à 890 Willow Avenue. Sa numéro de téléphone est 555-7890 et son adresse e-mail est [emilyanderson@example.com](mailto:emilyanderson@example.com). Elle travaille dans le département des Ressources humaines avec le code RH006. Si vous avez besoin d'en savoir plus sur elle ou si vous avez besoin d'elle pour quelque raison que ce soit, veuillez contacter Oliver Wilson au numéro 555-5678 en cas d'urgence.
+
+quel est le numero de CNI de emily ?
+lym: L'employée avec la CNI 345678901 s'appelle Emily Anderson, elle est née le 2 septembre 1991. Son adresse est 890 Willow Avenue, son numéro de téléphone est 555-7890 et son adresse e-mail est [emilyanderson@example.com](mailto:emilyanderson@example.com). Elle travaille dans le département des Ressources humaines avec le code RH006.
+bloke: L'employée avec la CNI 890123456 s'appelle Emma Lewis, elle est née le 7 août 1991. Son adresse est 890 Cedar Lane, son numéro de téléphone est 555-9012 et son adresse e-mail est emmalewis@example.com. Elle travaille dans le département des Ressources humaines avec le code RH018. En cas d'urgence, il faut contacter Michael Thompson au numéro 555-7890. Emma Lewis occupe le poste d'Assistant RH.
+
+qui sont les developpeurs ? selon le document fourni
+lym: Selon le document fourni, les développeurs sont : * Robert Williams (code CPT003) * Ethan Green (code IT004)
+bloke: L'employée avec la CNI 345678901 s'appelle Emily Anderson, elle est née le 2 septembre 1991. Son adresse est 890 Willow Avenue, son numéro de téléphone est 555-7890 et son adresse e-mail est emilyanderson@example.com. Elle travaille dans le département des Ressources humaines avec le code RH006. En cas d'urgence, il faut contacter Oliver Wilson au numéro 555-5678. Emily Anderson occupe le poste d'Assistant RH.
+
+
+
+sur quelles taches travaillent Emma Lewis and Liam Harris ?
+quelle est la date de debut et de fin de la tache qui consiste a finaliser le projet de rapport?
+quels sont les projets ayant une grande priorite ?
+qui peut-on contacter si Liam Harris a un probleme ?
+ou reside Alexander?
+quel est le numero de telephone de sophie wilson?
+
+quel est le numero de telephone de wilson sophie ? .....
+quel est le numero de telephone de sophie wilson ?
+
+
+## requete pouvant etre executer
+http://localhost:21002/worker_generate_stream
+
+{
+"model": "vicuna-13b", 
+"prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: donne moi les sous taches d'un projet de realisation des assets sous le format JSON suivant : {name: ..., duree: ..., description: ....} ASSISTANT:", 
+"temperature": 0.7, 
+"repetition_penalty": 1.0, 
+"top_p": 1.0, 
+"max_new_tokens": 512,
+"stop": null, 
+"stop_token_ids": null, 
+"echo": false
+}
+
+
+http://localhost:8000/v1/chat/completions
+{
+"model": "vicuna-13b",
+"messages": [{"role": "user", "content": "bonjour qui es tu?"}, {"role": "assistant", "content": "Bonjour! Je suis une intelligence artificielle conçue pour répondre à vos questions et vous aider de la meilleure façon possible. Comment puis-je vous aider aujourd'hui?"}, {"role": "user", "content": "donne moi les sous taches d'un projet de realisation des assets sous le format JSON suivant : {name: ..., duree: ..., description: ....}"}],
+"max_tokens": 1800,
+"temperature": 0.5
+}
+
+## requete pour les conversations
+http://localhost:8000/v1/chat/completions
+{
+"model": "vicuna-13b",
+"messages": [{"role": "user", "content": "bonjour qui es tu?"}, {"role": "assistant", "content": "Bonjour! Je suis une intelligence artificielle conçue pour répondre à vos questions et vous aider de la meilleure façon possible. Comment puis-je vous aider aujourd'hui?"}, {"role": "user", "content": "connais tu marilyn monroe ?"}],
+"max_tokens": 1800,
+"temperature": 0.5
+}
+
+what is the phone number of sophie wilson? 
+
+voici le prompt que j'utilise
+"considere toi comme un chef de projet ton but est de repondre aux preoccupations des utilisateurs en leurs fournissant des reponses detaille. donne moi les sous taches d'un projet de realisation des assets exactement sous le format JSON suivant : {'name': '', 'duree':'', 'description': ''}"
+
+considere toi comme un chef de projet, ton role sera de repondre aux preoccupations des utilisateurs en leurs fournissant des reponses detaillees et adaptees a leurs demandes. propose moi des sous taches au projet qui consiste a realiser les assets d'un projet. ta reponse doit etre sous le format JSON [{"name":"" , "duree":"" , "description":""}]. voici des exemples : [{"name":"nom" , "duree":"1-2 semaines" , "description":"description de tes"}]
+quels sont les employés capables de Prise de décision sur les outils de création d'assets à utiliser ? let's thing step by step
+R : Pour prendre des décisions sur les outils de création d'actifs à utiliser dans ce projet, il faut considérer plusieurs facteurs tels que l'expérience de chaque membre de l'équipe, leurs compétences techniques, les besoins spécifiques du projet et les contraintes budgétaires et temporelles. Par exemple, si le projet nécessite des graphismes complexes, alors il peut être nécessaire d'utiliser un logiciel spécialisé pour créer ces images. Si l'équipe dispose de membres expérimentés avec cette technologie, cela pourrait être une option viable. Cependant, si l'équipe n'a pas suffisamment d'expertise dans cette technologie, il serait préférable d'envisager d'autres options plus simples ou de recourir à des services externes pour obtenir les images nécessaires. De même, si le budget est limité, il peut être judicieux d'opter pour des solutions moins coûteuses plutôt que de choisir des outils très chers. Dans tous les cas, il est important de prendre en compte toutes les variables pertinentes lors de la prise de décision sur les outils de création d'actifs à utiliser afin de garantir que le projet soit livré dans les temps impartis et dans les conditions financières convenues.
+
+which employees are capable of making decisions about which asset creation tools to use? let's thing step by step
+R : In general, employees who have decision-making authority over assets related to their work or projects would likely be able to decide which asset creation tools to use. For example, if someone is working on developing a website, they may have the ability to choose between various design software programs or coding languages to use based on their experience and expertise. Similarly, if someone is managing a project, they might have the power to select specific tools for creating documents or presentations related to the project. Ultimately, it depends on the role and responsibilities of each employee within the organization.
+
+--ctx_size 1024
+--batch-size 2048
+--temp 0.82
+--top-k 30
+--top-p 1.8
+--tfs 2.0
+--typical 1.0
+--keep -1
+--repeat-last-n 1024
+--repeat-penalty 1.2
+--no-penalize-nl
+--mirostat 1
+--mirostat-lr 0.5
+--mirostat-ent 4.0
