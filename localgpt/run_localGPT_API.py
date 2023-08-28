@@ -189,7 +189,7 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/api/delete_source", methods=["GET"])
-@cross_origin()
+#@cross_origin()
 def delete_source_route():
     folder_name = "SOURCE_DOCUMENTS"
 
@@ -202,7 +202,7 @@ def delete_source_route():
 
 
 @app.route("/api/save_document", methods=["GET", "POST"])
-@cross_origin()
+#@cross_origin()
 def save_document_route():
     if "document" not in request.files:
         return "No document part", 400
@@ -223,7 +223,7 @@ def save_document_route():
 
 
 @app.route("/api/run_ingest", methods=["GET"])
-@cross_origin()
+#@cross_origin()
 def run_ingest_route():
     global DB
     global RETRIEVER
